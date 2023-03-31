@@ -2,7 +2,7 @@
 """
 Created on Tue Mar 28 15:16:50 2023
 
-@author: Hannah
+@author: Juan Brasdefer 225936, Fabian Pawelczyk 226921
 """
 
 from treetemplate import Tree

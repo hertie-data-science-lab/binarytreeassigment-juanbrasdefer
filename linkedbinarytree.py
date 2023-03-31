@@ -2,7 +2,7 @@
 """
 Created on Tue Mar 28 15:15:46 2023
 
-@author: Hannah
+@author: Juan Brasdefer 225936, Fabian Pawelczyk 226921
 """
 
 from binarytree import BinaryTree
