@@ -7,6 +7,8 @@ Created on Tue Mar 28 15:15:46 2023
 
 from binarytree import BinaryTree
 
+from queue import LinkedQueue
+
 class LinkedBinaryTree(BinaryTree):
     """Linked representation of a binary tree structure."""
 
@@ -260,7 +262,6 @@ class LinkedBinaryTree(BinaryTree):
 
 
 
-
     def breadth_first(self):
         """Generate a breadth-first/ level-order iteration of the positions of the tree."""
         if not self.is_empty():
@@ -271,5 +272,6 @@ class LinkedBinaryTree(BinaryTree):
                 yield p
                 for c in self.children(p):
                     fringe.enqueue(c)
+
 
 
