@@ -30,3 +30,30 @@ lbt.add_right(r, 7)
 print(len(lbt))
 print(lbt.height(lbt.root()))
 print()
+
+
+
+
+# Preorder Traversal
+print("Preorder Traversal:")
+for node in lbt.preorder():
+    print(node.element(), end=" ")
+print()
+
+# Inorder Traversal
+print("Inorder Traversal:")
+for node in lbt.inorder():
+    print(node.element(), end=" ")
+print()
+
+# Postorder Traversal
+print("Postorder Traversal:")
+for node in lbt.postorder():
+    print(node.element(), end=" ")
+print()
+
+# Breadth-first Traversal
+print("Breadth-first Traversal:")
+for node in lbt.breadth_first():
+    print(node.element(), end=" ")
+print()
